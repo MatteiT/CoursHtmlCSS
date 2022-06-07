@@ -1,0 +1,46 @@
+/* transistion 0% ---> 100% */
+/* animation de 0% / 1% /2 % */
+
+div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+}
+
+.transition {
+  background-color: red;
+  transition: all 2s linear;
+}
+.transition:hover {
+  background-color: yellow;
+  transform: translateX(100px);
+}
+
+/* animation fill mode permet de persister les changements à la fin de l'animation  */
+.animation {
+  animation: move 1s 1;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+    opacity: 0;  
+}
+50% {
+    opacity: 0.25
+    transform: translateX(300px);
+  }
+  75% {
+    opacity: 1
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 0.25
+    transform: translateX(20px);
+    background-color: green
+    
+  }
+}

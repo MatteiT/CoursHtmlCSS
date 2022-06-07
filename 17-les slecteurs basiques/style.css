@@ -1,0 +1,25 @@
+/*  les selecteurs basiques  */
+
+/*  les selecteurs universel "*" */
+* {
+  color: red;
+}
+
+/* le selecteurs d'ID */
+#heading {
+  font: 40px;
+  text-transform: uppercase;
+  color: blue;
+}
+
+/*  le selecteur de class */
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: green;
+}
+
+/* selecteur d'element */
+p {
+  letter-spacing: 5px;
+}

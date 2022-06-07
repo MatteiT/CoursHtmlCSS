@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+}
+
+.container {
+  border: 5px solid black;
+}
+
+.cell {
+  padding: 2rem;
+  background-color: #dedede;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 3px solid red;
+  color: #fff;
+}
+
+.cell-1 {
+  background: #581f18;
+  /* grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3; */
+  /* raccourci */
+  /* grid-column: 1/3;
+  grid-row: 1/3; */
+  /* grid-area: a; */
+}
+
+.cell-2 {
+  background-color: orange;
+  /* grid-area: b; */
+}
+
+.cell-3 {
+  background-color: orangered;
+  /* grid-area: d; */
+}
+
+.cell-4 {
+  background-color: blue;
+  /* le -1 permet de ne pas calculer les ligne et de prendre la totalité */
+  /* grid-column: 1/-1; */
+  /* grid-area: c; */
+}
+
+.cell-5 {
+  background-color: green;
+  /* grid-area: d; */
+}
+/* .cell-6 {
+  background-color: yellow;
+} */
+/* unité fr = fraction de l'espace dispo */
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  gap: 1rem; */
+}
+
+/*  grid area */
+/* .container {
+  grid-template-areas:
+    "a a b"
+    "a a b"
+    "c c b"
+    "d d d"
+    "e f f";
+} */
+.cell-1 {
+  /* order: 2; */
+}
+/* justify self. align self = contenu d'une cellule  */
+.cell-1 {
+  /* justify-self: end;
+  align-self: flex-start; */
+}
+/* minmax valeur min et max */
+.container {
+  grid-template-columns: 1fr minmax (400px, 1fr) 1fr;
+  /* autofill continu de créer des colonnes */
+  grid-template-columns: repeat(auto-fill, 200px);
+  /* auto-fit  */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+#navbar {
+  height: 200px;
+  background-color: aqua;
+}
+
+.logo {
+  font-size: 80px;
+  color: rgb(255, 0, 76);
+}
+
+.hero {
+  color: red;
+  background-color: black;
+  min-height: calc(100vh - 200px);
+}
+/* le calc c'est la hauteur du screen donc 100vh ou on soustrait les 200 px de la navbar*/
+
+.hero-btn {
+  background-color: darkblue;
+  color: yellow;
+}

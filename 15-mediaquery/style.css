@@ -1,0 +1,53 @@
+/* medias Quesries */
+/* Responsive design */
+/* stylise les element a partir des differentes tailles d'ecrans */
+/* min-width commence à  */
+/* max-width juqu'a */
+/* Mobile-First */
+
+body {
+  background-color: yellow;
+}
+
+.banner {
+  background-color: blue;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+/* min-width commence à */
+@media screen and (min-width: 576px) {
+  body {
+    background-color: red;
+  }
+  .banner {
+    background-color: yellow;
+  }
+
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+
+  .banner {
+    background-color: #fff;
+    margin-top: 60px;
+  }
+}
+
+/* @media screen and (max-width: 576px) {
+  body {
+    background-color: aqua;
+  } */
+  /* etc... */
+}

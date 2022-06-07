@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+div {
+  height: 300px;
+  border: 2px solid red;
+  color: white;
+}
+
+.big-img {
+  background: url(./retro1.jpeg);
+  background-repeat: no-repeat;
+}
+
+.small-img {
+  background: url(./retro2.jpg);
+  /* background-repeat: repeat; */
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  background-repeat: repeat-y;
+  background-repeat: space;
+  background-repeat: round;
+}
+
+.folder-img {
+  background: url(./retro3.jpeg);
+  background-repeat: no-repeat;
+}
+
+/* background size */
+.big-img {
+  background-size: cover;
+}
+
+.folder-img {
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+/* background position */
+.small-img {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position: 70% 20%;
+}
+
+.big-img {
+  background-position: center;
+  background-position: 90% 5%;
+}
+
+/* background attachement */
+div {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-img {
+  background-size: cover;
+  /* effet parallaxe */
+  background-attachment: fixed;
+}
+
+.big-img {
+  background-attachment: fixed;
+}
+
+.folder-img {
+  background-attachment: fixed;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./retro3.jpeg); */
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      rgba(255, 100, 239, 0.582)
+    ),
+    url(./retro3.jpeg) no-repeat fixed center;
+}

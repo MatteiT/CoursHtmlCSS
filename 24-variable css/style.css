@@ -1,0 +1,38 @@
+/* variable CSS */
+/* retient une valeur et la réutilise */
+/* varName = value */
+/* scope global : on accès aux variables partout */
+:root {
+  --secondaryColor: green;
+  --primaryColor: blue;
+  --mainTransition: all 0.4s linear;
+}
+
+.heading {
+  color: var(--secondaryColor);
+}
+.text {
+  color: var(--secondaryColor);
+}
+.main-text {
+  color: blue;
+}
+.second-heading {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.third-heading {
+  color: var(--primaryColor);
+}
+
+/* scope local */
+
+div {
+  --primaryColor: red;
+}
+.main-text {
+  color: var(--primaryColor);
+}
+.third-heading {
+  color: var(--primaryColor);
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box sizing</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bokor&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="nav-bar">
+      <div class="logo">
+        <i class="fa-solid fa-cow" id="header-img"></i>
+        <a href="./index.html">The Milk Man</a>
+        <i class="fa-solid fa-cow" id="header-img"></i>
+      </div>
+      <ul class="nav-link">
+        <!-- <li> -->
+        <!-- </li> -->
+        <li>
+          <a href="#fabric"> <i class="fa-solid fa-gear"></i> Frabrick </a>
+        </li>
+        <li>
+          <a href="#howto"> <i class="fa-solid fa-blender"></i> How-to</a>
+        </li>
+        <li>
+          <a href="#prices"
+            ><i class="fa-solid fa-money-check-dollar"></i> Prices
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- fin nav bar -->
+    <section class="form">
+      <form action="" method="post">
+        <h2>Your email for the milk man</h2>
+        <div class="email">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@email.com"
+          />
+          <input type="submit" id="submit" value="Give your soul " />
+        </div>
+      </form>
+    </section>
+    <!-- fin form -->
+
+    <!-- debut  Fabric-->
+    <section id="fabric">
+      <article class="fabric-center">
+        <div class="process">
+          <span><i class="fa-solid fa-box-open"></i></span>
+          <div class="textcenter">
+            <h3>Cardboard</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+              sequi.
+            </p>
+          </div>
+        </div>
+        <div class="process">
+          <span><i class="fa-solid fa-bottle-droplet"></i></span>
+          <div class="textcenter">
+            <h3>Glass</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo,
+              in!
+            </p>
+          </div>
+        </div>
+        <div class="process">
+          <span><i class="fa-solid fa-trailer"></i></span>
+          <div class="textcenter">
+            <h3>Metal</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Mollitia, dicta!
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- fin Fabric -->
+
+    <!-- video youtube -->
+    <section id="howto">
+      <iframe
+        width="752"
+        height="564"
+        src="https://www.youtube.com/embed/Bt5C1oLgjHw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <!-- video youtube -->
+
+    <!--debut Prices  -->
+    <section id="prices">
+      <div class="carte">
+        <div class="titre"><h1>$Less money$</h1></div>
+        <span id="price">10k$</span>
+        <div class="text">
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+          </ul>
+        </div>
+        <button class="btn">Select</button>
+      </div>
+      <div class="carte">
+        <div class="titre"><h1>$More money$</h1></div>
+        <span id="price">20k$</span>
+        <div class="text">
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+          </ul>
+        </div>
+        <button class="btn">Select</button>
+      </div>
+      <div class="carte">
+        <div class="titre"><h1>$Whatever...$</h1></div>
+        <span id="price">100k$</span>
+        <div class="text">
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+          </ul>
+        </div>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <span class="copyright">copyright © 2022, the milk man</span>
+  </footer>
+</html>

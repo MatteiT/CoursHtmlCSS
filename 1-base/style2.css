@@ -1,0 +1,16 @@
+/* heritage
+les enfants héritent du style des parents */
+
+body {
+    color: red;
+}
+
+.special {color: orange;
+font-size: 30px;}
+
+/* id>classe>balise>reste=* dans l'ordre du parentage */
+
+.container p {
+    color: gray;
+} 
+/* .container p selectionne tous paragraphe dans les container prio p par rapport container */

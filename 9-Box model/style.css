@@ -1,0 +1,25 @@
+/*  box-sizing : border box */
+.box1,
+.box2,
+.box3 {
+  width: 150px;
+  height: 150px;
+  color: white;
+}
+
+.box1 {
+  background-color: red;
+  padding: 20px;
+  box-sizing: border-box;
+  /* changer le content box par default pour border-box/ il garde ça dimmension pour garder les elements calés  */
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: green;
+  padding: 20px;
+  box-sizing: content-box;
+}

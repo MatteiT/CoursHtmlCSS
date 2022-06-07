@@ -1,0 +1,41 @@
+/* Block ) pas de respect de la largeur / et de la hauteur ; marge bottom /top */
+/*  Inline le nav ne respecte pas la largeur et hauteur marges top bottom */
+/* On ne peut pas appliquer les props with / height, margin top/bottm à des elements INLINE */
+
+span {
+  background-color: blue;
+  color: white;
+  /*  ces fonctions ne marge pas du tout en span : INLINE mais en div oui */
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* reset claissique EMMET! m0 et p0 pour marge et padding */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* pour enlever les puces de la liste des li donc ul li */
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: orange;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: #222;
+  padding: 5px;
+  /* margin: 10px; 
+  ne marche pas car inline donc :display: ; */
+  display: block;
+  margin: 10px;
+}

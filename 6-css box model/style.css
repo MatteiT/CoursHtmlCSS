@@ -1,0 +1,72 @@
+/* box model  */
+h1,
+p {
+  color: #fff;
+}
+
+h1 {
+  background-color: red;
+}
+
+p {
+  background-color: blue;
+}
+
+/*  Padding   */
+
+h1 {
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+/** p {
+    padding: 30px, 60px;
+} **/
+
+/*  padding + 2 valeurs haut puis bas et gauche et droite */
+/* padding 4 valeurs haut droite bas gauche sens horaire */
+
+/*  marge extérieur MARGIN */
+h1 {
+  margin: 100px;
+}
+
+/* BORDER */
+/* h1 {
+    border-style: ridge;
+    border-width: 10px;
+    border-color: aqua;
+} */
+
+h1 {
+  border: 50px gray dashed;
+  border-radius: 200px;
+  /* angle des borders */
+}
+
+.links {
+  margin: 3rem;
+}
+a {
+  background-color: yellow;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: #222;
+  margin: 0 20px;
+}
+
+#one {
+  border: 0.2rem solid #222;
+  outline: 0.2rem solid #222;
+  outline-offset: -20px;
+}
+#two {
+  border: -0.2rem solid #222;
+  outline: 0.2rem solid #222;
+  outline-offset: -10px;
+}
+* {
+  border: 2px solid red;
+}

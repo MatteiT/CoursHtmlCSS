@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.75rem;
+  color: red;
+  text-transform: uppercase;
+}
+
+.hero {
+  min-height: 100vh;
+  background: url(./sean-oulashin-KMn4VEeEPR8-unsplash.jpg) center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp {
+  min-height: 100vh;
+  background-color: blue;
+}

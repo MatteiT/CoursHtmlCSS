@@ -1,0 +1,34 @@
+/* CALC */
+/* performe des operations mathematiques */
+
+* {
+  margin: 0%;
+}
+
+.navbar {
+  background-color: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+
+/* .banner {
+    background-color: green;
+    height: 100vh;
+    width: 100vh;
+} */
+.banner {
+  background-color: green;
+  height: calc(100vh - 100px);
+  width: 100vh;
+}
+.exemple {
+  background-color: green;
+  min-height: 10rem;
+  max-width: 25rem;
+}
+/* width: 20rem;
+  height: 25rem; */
+/* overflow: hidden;
+  overflow: scroll; */
+/* = overflow hidden pour cacher l'exces / scroll pour naviguer dedans / */

@@ -1,0 +1,23 @@
+.icon {
+  color: red;
+  font-size: 40px;
+}
+
+/* ou h1 {
+    color: blue;
+} */
+
+#first,
+#second {
+  color: blue;
+}
+
+/* ou p {
+    color: gray;
+} */
+
+.container p {
+  color: gray;
+}
+
+/* .container p selectionne tous paragraphe dans les container / prio p par rapport container */

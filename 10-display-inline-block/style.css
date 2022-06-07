@@ -1,0 +1,41 @@
+/*  display inline-block */
+/*  ne commence pas une nouvelle ligne mais le navigateur respecte les margin width et height */
+
+a {
+  font-size: 1.5rem;
+  background-color: red;
+
+  width: 45px;
+  height: 45px;
+  margin: 40px 10px;
+
+  display: inline-block;
+}
+
+div {
+  background-color: orange;
+  margin: 10px;
+  color: white;
+  font-size: 1.3rem;
+}
+/*  pour supprimer di flux du document cache l'element en display */
+.none {
+  display: none;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.opacity-5 {
+  opacity: 0.5;
+}
+/*  opacity 0 visisbility hidden = cache l'element mais preserve les espaces */
+.opacity-0 {
+  opacity: 0;
+}
+
+.visibility {
+  visibility: hidden;
+}
+

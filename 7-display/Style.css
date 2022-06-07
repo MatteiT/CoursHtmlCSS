@@ -1,0 +1,29 @@
+/*  les elements peuvent avoir ces proprietes par défaut */
+/* Block ex H1 commence toujours sur une nouvelle ligne et toute la largeur */
+/* Inline ex image ne commece pas sur une nouvelle ligne et prend seulement ma taille du contenu */
+/* peut changer la propriété de l'element avec la commande display */
+
+.block {
+  background-color: blue;
+  color: white;
+  /* display: inline; */
+}
+
+.inline {
+  background-color: red;
+  color: white;
+  /* display: block; */
+}
+
+/*  centrer horizontalement */
+body {
+    text-align: center;
+}
+
+.block {
+    /* centrer une div d'abord donner une taille puis marger*/
+width: 300px;
+margin: 2rem;
+/* ou margin: auto */
+}
+

@@ -1,0 +1,19 @@
+h3 {
+    color: aqua;
+    font: 100px;
+
+}
+/* selecteurs groupés */
+h4,h5,p{color: blueviolet; font-size: x-large;}
+
+/* selecteur id */
+#title {color: chartreuse; font-size: 75px; background-color: aqua;}
+#footer{color: crimson; background-color: blanchedalmond;}
+
+.green{color: darkgoldenrod; background-color: 
+    red;}
+.red{color: firebrick; background-color: rgb(29, 141, 238);}
+.uppercase {text-transform: uppercase;}
+
+.x{color: goldenrod; background-color: cadetblue;}
+

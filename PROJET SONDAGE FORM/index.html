@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet sondage form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="title">je suis un titre</h1>
+      <p id="description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+        doloribus hic tempore aperiam quia aut?
+      </p>
+      <!-- debut formulaire remplacer le /ul -->
+      
+        <form action="#" id="survey-form">
+          <!-- Prénom -->
+
+          <div id="div" >
+            <label for="name"
+              >Prénom
+            </label>
+              <input type="text" name="name" id="name" placeholder="Prénom" />
+          </div id="div" >
+          <div >
+            <label for="email"
+              >Email
+            </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email@email.com"
+              />
+          </div>
+          <div id="div">
+            <label for="Age"
+            >Age
+          </label>
+              <input
+                type="number"
+                name="number"
+                id="number"
+                min="10"
+                max="100"
+                placeholder="Age"
+              />
+          </div>
+
+          <!-- choix sexe h/m -->
+
+          <div id="div">
+            <p>Sexe :</p>
+            <select name="Homme/Femme" id="dropdown">
+              <option value="Homme">Homme</option>
+              <option value="Femme">Femme</option>
+              <option value="Autre">Autre</option>
+            </select>
+          </div>
+
+          <!-- choix glace -->
+          <p>
+            Quel goût de glace voulez vous ?
+            </p>
+          <div id="div">
+            <label for="choix">chocolat</label>
+            <input type="radio" id="choix" name="choix" value="chocolat" />
+            <label for="choix">vanille</label>
+            <input type="radio" id="choix" name="choix" value="vanille" />
+          </div>
+          <!-- finc choix glace -->
+
+          <!-- choix nombres boules -->
+          <p>
+            Combien de boûles de glaces voulez vous ? 
+          </p>
+          <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+            <label>2
+          <input type="checkbox" name="boules" value="boules">
+          </label>
+            <label>3
+          <input type="checkbox" name="boules" value="boules">
+          </label>
+            <label>4
+          <input type="checkbox" name="boules" value="boules">
+          </label>
+            <label>5
+          <input type="checkbox" name="boules" value="boules">
+          </label>
+         
+                    <!--fin choix nombres de boules -->
+          <div id="textarea">
+            <p>Des sugestions de gôut pas sur la carte</p>
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="30"
+              rows="10"
+              placeholder="Entrez votre Blabla"
+            ></textarea>
+          </div>
+          <button id="submit" input type="submit">Envoyer le formulaire</button>
+        </form>
+          </div>
+  </body>
+</html>

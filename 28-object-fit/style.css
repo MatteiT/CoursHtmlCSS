@@ -1,0 +1,15 @@
+img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+.one,
+.two {
+  width: 50%;
+  float: left;
+  margin: 2px;
+}
+div {
+  border: 2px solid red;
+}
